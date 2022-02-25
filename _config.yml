@@ -20,9 +20,9 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder-Sheets
+title: <span class="site-title"></span>
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: <span class="site-tagline"></span>
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-Sheets is an experimental template that directly parses CSVs to create small digital collection exhibits on GitHub Pages designed for teaching digital library skills. Work in Progress!"
@@ -36,7 +36,7 @@ author: CollectionBuilder
 # This will be the full URL to your CSV file or relative path + filename of CSV in this repository 
 # e.g. relative path "/assets/demo-metadata.csv"
 # e.g. published google sheet "https://docs.google.com/spreadsheets/d/e/2PACX-1vSn7AA-cbsXT3_nNUGftc1ab-CKXOJHMQCIENeR9NHElbyI9_qA99o0-HNZdG04v-M2_N21bUe_krQQ/pub?gid=0&single=true&output=csv"
-metadata-csv: /assets/demo-metadata.csv
+# metadata-csv: /assets/demo-metadata.csv
 
 ##########
 # GOOGLE SERVICES [optional!]
