@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Map | CollectionBuilder-Sheets</title>
+<link rel="shortcut icon" type="image/x-icon" href="/collectionbuilder-pages/favicon.ico">
+<!--
+  _____     ____        __  _           ___       _ __   __       
+ / ___/__  / / /__ ____/ /_(_)__  ___  / _ )__ __(_) /__/ /__ ____
+/ /__/ _ \/ / / -_) __/ __/ / _ \/ _ \/ _  / // / / / _  / -_) __/
+\___/\___/_/_/\__/\__/\__/_/\___/_//_/____/\_,_/_/_/\_,_/\__/_/   
+   
+    built with CollectionBuilder-Sheets
+    https://github.com/CollectionBuilder/collectionbuilder-sheets
+-->
+<meta name="generator" content="collectionbuilder-sheets" />
+<meta http-equiv="Content-Language" content="en-us" >
+
+<!-- load style sheets -->
+
+<link rel="stylesheet" href="/collectionbuilder-pages/assets/lib/bootstrap.min.css" type="text/css">
+
+<link rel="stylesheet" href="/collectionbuilder-pages/assets/lib/leaflet/leaflet.css">
+<link rel="stylesheet" href="/collectionbuilder-pages/assets/lib/leaflet/leaflet.fusesearch.css">
+<link rel="stylesheet" href="/collectionbuilder-pages/assets/lib/leaflet/MarkerCluster.css">
+<link rel="stylesheet" href="/collectionbuilder-pages/assets/lib/leaflet/MarkerCluster.Default.css">
+
+
+<!-- load custom css last to allow overrides -->
+<link rel="stylesheet" href="/collectionbuilder-pages/assets/css/custom.css" type="text/css">
+
+<meta name="robots" content="noindex">
+<meta name="description" content="CollectionBuilder-Sheets is an experimental template that directly parses CSVs to create small digital collection exhibits on GitHub Pages designed for teaching digital library skills. Work in Progress!">
+<meta name="author" content="CollectionBuilder" >
+<!-- Open Graph meta -->
+<meta property="og:title" content="Map | CollectionBuilder-Sheets" />
+<meta property="og:description" content="CollectionBuilder-Sheets is an experimental template that directly parses CSVs to create small digital collection exhibits on GitHub Pages designed for teaching digital library skills. Work in Progress!" />
+<meta property="og:site_name" content="CollectionBuilder-Sheets" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://apjanco.github.io/collectionbuilder-pages/map.html" />
+<meta property="og:locale" content="en_US" />
+<!-- schema.org JSON-LD -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"Map | CollectionBuilder-Sheets","publisher":"CollectionBuilder","description":"CollectionBuilder-Sheets is an experimental template that directly parses CSVs to create small digital collection exhibits on GitHub Pages designed for teaching digital library skills. Work in Progress!","url":"https://apjanco.github.io/collectionbuilder-pages/map.html"}</script> 
+
+
+<!-- Analytics --> 
+
+
+
+<!-- Last build date: 2022-07-26 -->
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-md-9">
+            <h1><a class="text-dark font-weight-normal" href="/collectionbuilder-pages/" >CollectionBuilder-Sheets</a></h1>	 
+            <p>a template for creating simple digital exhibits</p>
+        </div>
+        
+        <div class="col-md-3 d-none d-lg-block text-end">
+            <a class="btn btn-outline-light" href="https://cdil.lib.uidaho.edu/" target="_blank" rel="noopener">
+                <img class="img-fluid" src="https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
+            </a>
+        </div>
+        
+    </div>
+</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <span class="d-lg-none text-end">
+            <a href="https://cdil.lib.uidaho.edu/" target="_blank" rel="noopener">
+                <img class="img-fluid" id="mobile-nav-image" src="https://cdil.lib.uidaho.edu/assets/img/logo.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
+            </a>
+        </span>
+        
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav me-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/collectionbuilder-pages/">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/collectionbuilder-pages/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/collectionbuilder-pages/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/collectionbuilder-pages/locations.html">Locations</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="/collectionbuilder-pages/map.html">Map</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/collectionbuilder-pages/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/collectionbuilder-pages/data.html">Data</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu">
+                        
+                        <a class="dropdown-item " href="/collectionbuilder-pages/about.html">About CollectionBuilder</a>
+                        
+                        <a class="dropdown-item " href="/collectionbuilder-pages/metadata.html">Metadata Guidelines</a>
+                        
+                        <a class="dropdown-item " href="/collectionbuilder-pages/setup/">Test your Metadata</a>
+                        
+                    </div>
+                </li>
+                </ul>
+            
+            <script>
+    function site_search() {
+        var query = document.getElementById("site-search").value;
+        window.open("/collectionbuilder-pages/search/index.html?q=" + encodeURIComponent(query), "_self" );
+    }
+</script>
+<form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
+    <div class="input-group">
+        <input id="site-search" class="form-control " type="text" placeholder="Search" aria-label="Search box">
+        <button class="btn btn-light" type="submit">
+            <span id="search-icon"><svg viewBox="0 0 1024 974" height="16px" width="20px"><path d="M960 832L710.875 582.875C746.438 524.812 768 457.156 768 384 768 171.96900000000005 596 0 384 0 171.969 0 0 171.96900000000005 0 384c0 212 171.969 384 384 384 73.156 0 140.812-21.562 198.875-57L832 960c17.5 17.5 46.5 17.375 64 0l64-64C977.5 878.5 977.5 849.5 960 832zM384 640c-141.375 0-256-114.625-256-256s114.625-256 256-256 256 114.625 256 256S525.375 640 384 640z"/></svg></span>
+            <span class="visually-hidden">Search</span>
+        </button>
+    </div>
+</form>
+            
+        </div>
+    </div>
+</nav>
+
+    <main id="maincontent" role="main" class="flex-shrink-0">
+    <div id="map"></div>
+
+    </main>
+    <footer class="bg-dark pt-4 mt-auto container-fluid">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7  px-4 mt-2">
+
+            <h4><a href="/collectionbuilder-pages/" class="text-white font-weight-normal">CollectionBuilder-Sheets</a></h4>
+            <p class="text-white"><small>CollectionBuilder-Sheets is an experimental template that directly parses CSVs to create small digital collection exhibits on GitHub Pages designed for teaching digital library skills. Work in Progress!</small></p>
+            <nav>
+                <ul id="footer-nav" class="nav nav-pills ">
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/subjects.html">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light active" href="/collectionbuilder-pages/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/timeline.html">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/collectionbuilder-pages/about.html">About</a>
+                    
+                    </li></ul>
+            </nav>
+
+        </div>
+
+        <div class="col-md-5 mt-2 text-end">
+
+            <p class="text-end">
+                <a href="https://cdil.lib.uidaho.edu/" target="_blank" rel="noopener">
+                    <img id="footer-logo" class="img-fluid" src="https://cdil.lib.uidaho.edu/assets/img/logo.png" alt="Center for Digital Inquiry and Learning (CDIL) home">
+                </a>
+            </p>
+            
+            <p class="text-white" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
+                        <img src="/collectionbuilder-pages/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder logo" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2022</p>
+    </div>
+
+</footer>
+    <!-- Bootstrap bundle JS -->
+<script src="/collectionbuilder-pages/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+<script src="/collectionbuilder-pages/assets/lib/lazysizes.min.js" async></script>
+<script src="/collectionbuilder-pages/assets/lib/papaparse.min.js"></script>
+
+<!-- load leaflet dependencies -->
+<script src="/collectionbuilder-pages/assets/lib/leaflet/leaflet.js"></script>
+<script src="/collectionbuilder-pages/assets/lib/leaflet/fuse.min.js"></script>
+<script src="/collectionbuilder-pages/assets/lib/leaflet/leaflet.fusesearch.js"></script>
+<script src="/collectionbuilder-pages/assets/lib/leaflet/leaflet.markercluster.js"></script>
+<script src="/collectionbuilder-pages/assets/lib/leaflet/leaflet.markercluster.freezable.js"></script>
+<script>
+/* set up map first */
+/* init map and set zoom */
+if (window.location.hash) {
+    /* if url has a hash, it is split by comma into coordinates that set the view */
+    var hashfilter = decodeURIComponent(location.hash.substr(1));
+    var latitudeHash = hashfilter.split(',')[0]
+    var longitudeHash = hashfilter.split(',')[1]
+    var map = L.map('map').setView([latitudeHash,longitudeHash],16);
+} else {
+    var map = L.map('map').setView([46.727485,-117.014185],7);
+}
+
+/* add map layer options */
+var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+});
+var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+    maxZoom: 16
+});
+var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+});
+/* add base map switcher */
+var baseMaps = {
+    "Esri World StreetMap": Esri_WorldStreetMap,
+    "Esri National Geo": Esri_NatGeoWorldMap,
+    "Esri Imagery": Esri_WorldImagery
+};
+L.control.layers(baseMaps).addTo(map);
+/* load base map */
+Esri_WorldStreetMap.addTo(map);
+
+/* function to add items to map */
+var markers;
+function createMap(geodata) {
+    
+    /* create cluster group */
+    markers = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true , removeOutsideVisibleBounds: false });
+
+    /* use geoJson features to add objects to map */
+    L.geoJson(geodata, {
+        onEachFeature: objectPopups,
+        pointToLayer: objectMarkers
+    });
+    map.addLayer(markers);
+
+    
+    /* add leaflet-fusesearch */
+    var options = {
+        title: 'Search Map Items',
+        locationholder: 'Search map items...',
+        threshold: 0.35,
+        showResultFct: function(feature, container) {
+            var result = `<strong>${feature.properties.title}</strong><br>`;
+            
+            if(feature.properties["date"]) { result += feature.properties["date"] + `<br>`; }
+            
+            if(feature.properties["creator"]) { result += feature.properties["creator"] + `<br>`; }
+            
+            if(feature.properties["subject"]) { result += feature.properties["subject"] + `<br>`; }
+            
+            if(feature.properties["location"]) { result += feature.properties["location"] + `<br>`; }
+            
+            container.innerHTML = result;
+        }
+    };
+    var searchCtrl = L.control.fuseSearch(options);
+    searchCtrl.addTo(map);
+    searchCtrl.indexFeatures(geodata.features, ["title","date","creator","subject","location"]);
+
+    
+    /* add listeners */
+    /* uncluster when search is clicked */
+    document.querySelector('a.button').addEventListener("click", function() {
+        markers.disableClustering();
+    });
+    /* recluster when search is closed */
+    document.querySelector('a.close').addEventListener("click", function() {
+        markers.enableClustering();
+        document.querySelector('input.search-input').value = "";
+    });
+
+}
+
+/* function to create object popups */
+function objectPopups(feature, layer) {
+    
+    /* bind feature for search */
+    feature.layer = layer;
+    /* calculate item link */
+    var itemHref = '/collectionbuilder-pages/item.html?id=' + feature.properties.objectid;
+    /* find object thumb based on format */
+    var thumbSrc;
+    if (feature.properties.youtubeid) {
+        thumbSrc = 'https://img.youtube.com/vi/' +  feature.properties.youtubeid + '/default.jpg';
+    } else if (feature.properties.format && feature.properties.format.includes("image")) {
+        if (feature.properties.filename.includes("/")) {
+            thumbSrc = feature.properties.filename;
+        } else { 
+            thumbSrc = "/collectionbuilder-pages/objects/" + feature.properties.filename;
+        }
+    } else if (feature.properties.format && feature.properties.format.includes("audio")) {
+        thumbSrc = '/collectionbuilder-pages/assets/lib/icons/file-earmark-play.svg';
+    } else if (feature.properties.format && feature.properties.format.includes("video")) {
+        thumbSrc = '/collectionbuilder-pages/assets/lib/icons/camera-video.svg'; 
+    } else if (feature.properties.format && feature.properties.format.includes("pdf")) {
+        thumbSrc = '/collectionbuilder-pages/assets/lib/icons/file-earmark-text.svg';  
+    } else {
+        thumbSrc = '/collectionbuilder-pages/assets/lib/icons/file-earmark.svg';
+    }    
+    /* create popup content */
+    var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
+        feature.properties.title + '</a></h4><div class="text-center"><a href="' + itemHref + 
+        '" ><img class="mapthumb img-thumb" src="' +  thumbSrc + '" alt="item thumbnail"></a></div><p class="mt-1">';
+    /* add metadata fields */
+    
+    if (feature.properties["date"]) {
+        popupTemplate += '<strong>Date:</strong> ' + feature.properties["date"] + '<br>'; 
+    }
+    
+    if (feature.properties["creator"]) {
+        popupTemplate += '<strong>Creator:</strong> ' + feature.properties["creator"] + '<br>'; 
+    }
+    
+    if (feature.properties["subject"]) {
+        popupTemplate += '<strong>Subjects:</strong> ' + feature.properties["subject"] + '<br>'; 
+    }
+    
+    if (feature.properties["location"]) {
+        popupTemplate += '<strong>Location:</strong> ' + feature.properties["location"] + '<br>'; 
+    }
+    
+    /* add object link button to popup */
+    popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+    /* add object popup to map layer */
+    layer.bindPopup(popupTemplate);
+}
+/* function to add objects to map */
+function objectMarkers(feature,latlng) {
+    var marker = L.marker(latlng);
+    markers.addLayer(marker);
+    return marker;
+}
+
+// set up geodata var
+var geodata = { "type": "FeatureCollection", "features": [ ] };
+/* prep metadata */
+function pageInit(cb_items) {
+    // filter out no lat long
+    var items = cb_items.filter(function(item) { return item.latitude && item.longitude; });
+    // get configured fields
+    for (var i = 0; i < items.length; i++) {
+        var feature = { 
+            "type":"Feature", 
+            "geometry": { "type":"Point", "coordinates": [ items[i].longitude, items[i].latitude ] }
+        };
+        feature.properties = items[i];
+        // remove undefined and null metadata values
+        Object.keys(feature.properties).forEach(key => feature.properties[key] === undefined || feature.properties[key] == "" && delete feature.properties[key]);
+        // add to geodata
+        geodata.features.push(feature);
+    }
+    createMap(geodata);
+}
+
+/* Load items from Sheets, store in sessionStorage, or load from sessionStorage */
+var cb_items = [];
+var config_metadata = "/collectionbuilder-pages/assets/demo-metadata.csv";
+
+// function to process items from Sheets and store
+function cb_items_init(metadata_url) {
+  /* use papaparse to get metadata from configured CSV URL, then init page */
+  Papa.parse(metadata_url, {
+    download: true,
+    header: true,
+    complete: (results) => { 
+      cb_items = results.data.filter(item => item["objectid"]);
+      sessionStorage.setItem("cb_items_store", JSON.stringify(cb_items));
+      pageInit(cb_items);
+    },
+    error: (err) => {
+      alert("There is an error parsing your CSV! Please check the configured URL or file. The most common issue is incorrect filename, path, or URL so that your CSV is not found.");
+    }
+  });
+}
+
+// check for sessionStored items
+if (sessionStorage.getItem("cb_items_store")) {
+  cb_items = JSON.parse(sessionStorage.getItem("cb_items_store"));
+  pageInit(cb_items);
+
+} else if (sessionStorage.getItem("cb_metadata_set") && sessionStorage.getItem("cb_metadata_set").includes("https://")) {
+  cb_items_init(sessionStorage.getItem("cb_metadata_set"));
+} else if (config_metadata != "") { 
+  cb_items_init(config_metadata);
+} else {
+  // if no CSV is configured, add a warning alert
+  var metadataAlert = document.createElement("div");
+  metadataAlert.classList.add("container");
+  metadataAlert.innerHTML = `<div class="alert alert-warning mt-3 text-center h3" role="alert">
+    This site has no metadata set in "_config.yml"<br> please <a href="/collectionbuilder-pages/setup/" class="alert-link">visit the setup page</a> to configure!
+  </div>`;
+  document.querySelector("main").prepend(metadataAlert);
+}
+
+
+if (sessionStorage.getItem("cb_metadata_set")) { 
+  var refreshButton = document.createElement("div");
+  refreshButton.classList.add("dev-buttons");
+  refreshButton.innerHTML = `<div class="btn-group-vertical">
+    ${ sessionStorage.getItem("cb_metadata_set").includes("https://") ? '<button class="btn btn-sm btn-info" onclick="refreshMetadata()" id="refreshButton">Refresh Metadata</button>' : '' }
+    <a class="btn btn-sm btn-warning" href="/collectionbuilder-pages/setup/">Change Metadata</a>
+    <button class="btn btn-sm btn-secondary" onclick="resetMetadata()" id="refreshButton">Reset</button>
+    </div>`;
+  document.body.appendChild(refreshButton);
+  function refreshMetadata () {
+    // remove data
+    sessionStorage.removeItem("cb_items_store");
+    // reload
+    location.reload();
+  }
+  function resetMetadata () {
+    // remove data
+    sessionStorage.removeItem("cb_items_store");
+    sessionStorage.removeItem("cb_metadata_set");
+    // reload
+    location.reload();
+  }
+}
+
+</script>
+
+
+    <script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("scroll-to-top").style.display = "block";
+        } else {
+            document.getElementById("scroll-to-top").style.display = "none";
+        }
+    }
+    // scroll to top function
+    function scrollToTop() {
+        window.scroll({
+            top: 0, 
+            left: 0, 
+            behavior: 'smooth'
+        });
+    }
+</script>
+<button id="scroll-to-top" type="button" class="btn btn-link btn-lg" onclick="scrollToTop();" title="Back to Top" aria-label="Back to Top">
+    <svg class="bi icon-sprite" role="img" aria-label="Up Arrow">
+        <use xlink:href="/collectionbuilder-pages/assets/lib/cb-icons.svg#icon-back-to-top"/>
+    </svg>
+</button>
+
+  </body>
+</html>
