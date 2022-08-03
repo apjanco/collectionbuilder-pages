@@ -5,19 +5,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/404.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/404.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://hnswans.github.io/collectionbuilder-pages/about.html</loc>
-
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -25,19 +15,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/browse.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/about.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://hnswans.github.io/collectionbuilder-pages/data.html</loc>
-
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -45,19 +25,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/search/google.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/browse.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://hnswans.github.io/collectionbuilder-pages/</loc>
-
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -65,19 +35,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/item.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/data.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://hnswans.github.io/collectionbuilder-pages/locations.html</loc>
-
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -85,19 +45,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/map.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/search/google.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://hnswans.github.io/collectionbuilder-pages/metadata.html</loc>
-
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -105,19 +55,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/search/</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://hnswans.github.io/collectionbuilder-pages/setup/</loc>
-
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -125,9 +65,9 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/subjects.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/item.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
@@ -135,9 +75,69 @@
 
    <url>
 
-      <loc>https://hnswans.github.io/collectionbuilder-pages/timeline.html</loc>
+      <loc>https://apjanco.github.io/collectionbuilder-pages/locations.html</loc>
 
-      <lastmod>2022-07-29T12:39:47+00:00</lastmod>
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://apjanco.github.io/collectionbuilder-pages/map.html</loc>
+
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://apjanco.github.io/collectionbuilder-pages/metadata.html</loc>
+
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://apjanco.github.io/collectionbuilder-pages/search/</loc>
+
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://apjanco.github.io/collectionbuilder-pages/setup/</loc>
+
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://apjanco.github.io/collectionbuilder-pages/subjects.html</loc>
+
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://apjanco.github.io/collectionbuilder-pages/timeline.html</loc>
+
+      <lastmod>2022-08-03T20:54:30+00:00</lastmod>
 
       <changefreq>monthly</changefreq>
 
